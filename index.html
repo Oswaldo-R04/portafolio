@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio y CV online de Oswaldo, Analista de Datos. Proyectos de ciencia de datos, análisis y visualización.">
+    <title>Oswaldo | Analista de Datos</title>
+    
+    <!-- Fuente moderna (revisar: aquí dice Geist pero el comentario habla de Inter) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png">
+
+    <!-- Tu CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+<body>
+    
+<header>
+    <!-- NAVEGACIÓN -->
+<nav class="navbar" aria-label="Navegación principal">
+    <div class="nav-container-centered">
+        <div class="nav-inner">
+            <a href="#inicio" class="nav-logo"></a>
+
+            <button class="nav-toggle" aria-label="Abrir menú de navegación">
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="nav-menu">
+                <li><a href="#inicio" class="active">Inicio</a></li>
+                <li><a href="#resumen">Sobre mí</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li class="nav-icon" aria-hidden="true">💻</li>
+            </ul>
+        </div>
+    </div>
+    
+</nav>
+
+
+    <!-- SECCIÓN HERO / INICIO -->
+    <section id="inicio" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge fade-in">
+                    Disponible para trabajar
+                </div>
+                <h1 class="fade-in-delay">
+                    ¡Hola! soy <span class="highlight">Oswaldo</span>
+                </h1>
+                <h2 class="fade-in-delay-2">Analista de Datos | Negocios</h2>
+                <p class="hero-description fade-in-delay-3">
+                    Extraigo el máximo potencial de tus datos para convertirlos en soluciones estratégicas,
+                    accionables y alineadas al negocio.
+                </p>
+                
+                <div class="hero-actions fade-in-delay-4">
+                    <a href="#proyectos" class="cta-button primary">
+                        <span>Ver mis proyectos</span>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+                            <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                    <a href="#contacto" class="cta-button secondary">
+                        <span>Contactar</span>
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="hero-image-wrapper fade-in-delay-2">
+                <div class="hero-image-container">
+                    <img src="img/graf.png" alt="Oswaldo, Analista de Datos" class="hero-image">
+                    <div class="image-decoration decoration-1" aria-hidden="true"></div>
+                    <div class="image-decoration decoration-2" aria-hidden="true"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Scroll indicator -->
+        <div class="scroll-indicator fade-in-delay-6" aria-hidden="true">
+            <span>Scroll</span>
+            <div class="scroll-arrow">↓</div>
+        </div>
+    </section>
+</header>
+
+<main>
+    <!-- SECCIÓN RESUMEN / CV CORTO -->
+    <section id="resumen" class="summary">
+        <div class="container">
+            <h2 class="section-title">Sobre mí</h2>
+            <p class="summary-text">
+             Podría contarte mucho… pero prefiero que los datos hablen por mí.
+            </p>
+            <div class="timeline">
+                <h3 class="timeline-title">Mi Experiencia</h3>
+
+                <div class="timeline-list">
+                    <div class="timeline-item" data-animate>
+                        <span class="timeline-year">2025 - ACTE.</span>
+                        <div class="timeline-body">
+                            <h4 class="timeline-role">Auxiliar de Costos</h4>
+                            <div class="timeline-company">SANVER FORTE</div>
+                </div>
+                    </div>
+                <div class="timeline-list">
+                    <div class="timeline-item" data-animate>
+                        <span class="timeline-year"> 2024 Jun Sep</span>
+                        <div class="timeline-body">
+                            <p class="timeline-role"> Temporary Data Analyst</p>
+                            <p class="timeline-company"> InSci Consulting S.C.</p>
+                        </div>
+                    </div>
+
+                <div class="timeline-list">
+                    <div class="timeline-item" data-animate>
+                        <span class="timeline-year">2024</span>
+                        <div class="timeline-body">
+                            <p class="timeline-role">Grado en Estadística</p>
+                            <p class="timeline-company">Universidad Veracruzana</p>
+                </div>
+            </div>
+
+
+            <div class="summary-grid">
+                <div class="summary-item">
+                    <h3>CV</h3>
+                  
+                    <a href="cv/Oswaldo_CV.pdf" class="cta-button tertiary" target="_blank" rel="noopener">
+                        Ver CV
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- SECCIÓN HABILIDADES -->
+    <section id="habilidades" class="skills">
+        <div class="container">
+            <h2 class="section-title">Habilidades</h2>
+            
+            <!-- Bloque principal de técnicas/herramientas -->
+            <div class="skills-main-block" data-animate>
+                <h3 class="skills-category">Técnicas</h3>
+                
+                <!-- Logos en fila horizontal -->
+                <div class="skills-logos">
+                    <div class="skill-logo">
+                        <img src="img/rstudio.png" data-skill="Logo de RStudio">
+                    </div>
+                    <div class="skill-logo">
+                        <img src="img/python.svg" data-skill="Logo de Python">
+                    </div>
+                    <div class="skill-logo">
+                        <img src="img/power bi.png" data-skill="Logo de Power BI">
+                    </div>
+                    <div class="skill-logo">
+                        <img src="img/bigquery.png" data-skill="Logo de BigQuery">
+                    </div>
+                    <div class="skill-logo">
+                        <img src="img/excel.png" data-skill="Logo de Excel">
+                    </div>
+                    <div class="skill-logo">
+                        <img src="img/looker.png" data-skill="Logo de Looker Studio">
+                    </div>
+                    <div class="skill-logo">
+                        <img src="img/polars.png" data-skill="Logo de Polars">
+                    </div>
+                    <div class="skill-logo">
+                        <img src="img/duckplyr .png" data-skill="Logo de duckplyr">
+                    </div>
+                    <div class="skill-logo">
+                        <img src="img/Copilot.png" data-skill="Logo de duckplyr">
+                    </div>
+                    <div class="skill-logo">
+                        <img src="img/Claude.png" data-skill="Logo de duckplyr">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="skills-features">
+    <div class="feature-card" data-animate>
+        <div class="feature-icon" aria-hidden="true">📊</div>
+        <h4>Análisis & storytelling de datos</h4>
+    </div>
+
+    <div class="feature-card" data-animate>
+        <div class="feature-icon" aria-hidden="true">📈</div>
+        <h4>Dashboards & Business Intelligence</h4>
+    </div>
+
+    <div class="feature-card" data-animate>
+        <div class="feature-icon" aria-hidden="true">⚙️</div>
+        <h4>Automatización & pipelines ligeros</h4>
+    </div>
+    </div>
+    </section>
+
+
+    <section id="proceso" class="skills">
+    <div class="container">
+        <h2 class="section-title">Mi idea de trabajo</h2>
+
+        <p class="process-intro">
+            Sigo un flujo de trabajo claro para transformar datos crudos 
+            en decisiones accionables. Cada paso está diseñado para mantener 
+            el equilibrio entre precisión técnica y claridad para el negocio.
+        </p>
+
+        <div class="process-grid">
+            <!-- Paso 1 -->
+            <article class="process-step" data-animate>
+                <div class="process-step-number">01</div>
+                <h3>Comprensión del problema</h3>
+                <p>
+                    Defino el objetivo, las métricas clave y las preguntas que el 
+                    negocio necesita responder. Sin una buena pregunta, no hay buen análisis.
+                </p>
+            </article>
+
+            <!-- Paso 2 -->
+            <article class="process-step" data-animate>
+                <div class="process-step-number">02</div>
+                <h3>Preparación y limpieza del dato</h3>
+                <p>
+                    Unifico fuentes, corrijo inconsistencias y preparo las variables 
+                    para que el análisis sea confiable y reproducible.
+                </p>
+            </article>
+
+            <!-- Paso 3 -->
+            <article class="process-step" data-animate>
+                <div class="process-step-number">03</div>
+                <h3>Exploración y análisis</h3>
+                <p>
+                    Exploro patrones, relaciones y anomalías mediante análisis 
+                    descriptivo y visualizaciones que revelan la historia detrás de los datos.
+                </p>
+            </article>
+
+            <!-- Paso 4 -->
+            <article class="process-step" data-animate>
+                <div class="process-step-number">04</div>
+                <h3>Modelado y visualización</h3>
+                <p>
+                    Construyo modelos o dashboards que sintetizan la información 
+                    en insights claros, listos para apoyar la toma de decisiones.
+                </p>
+            </article>
+
+            <!-- Paso 5 -->
+            <article class="process-step" data-animate>
+                <div class="process-step-number">05</div>
+                <h3>Entrega y automatización</h3>
+                <p>
+                    Presento resultados de forma comprensible y, cuando es posible, 
+                    automatizo procesos para que el valor del análisis se mantenga en el tiempo.
+                </p>
+            </article>
+        </div>
+    </div>
+</section>
+
+    <!-- SECCIÓN PROYECTOS -->
+    <section id="proyectos" class="projects">
+        <div class="container">
+            <h2 class="section-title">Proyectos - Recursos</h2>
+            
+            <div class="projects-masonry">
+                
+                <!-- Proyecto 1 - Card grande -->
+                <article class="project-card project-card-large" data-animate>
+                    <a href="https://oswaldo-gonzalez.quarto.pub/automatizacion-reporte-ventas/" target="_blank" class="project-link" rel="noopener">
+                        <div class="project-image">
+                            <img src="img/ETL (2).png" alt="Visualización del proyecto principal de datos">
+                            <span class="project-badge badge-read">CONFIDENCIAL</span>
+                        </div>
+                        <div class="project-content">
+                            <h3>Informe de ventas</h3>
+                            <p>Proyecto Real de una Implementación de un proceso automatizado que permita transformar, validar y actualizar la
+información de ventas desde un Excel local hacia un tablero dinámico en Power BI, reduciendo
+al mínimo la intervención manual y un buen rendimiento para datos a gran escala.</p>
+                            <div class="project-author">
+                                <img src="img/profile.png" alt="Foto de Oswaldo" class="author-avatar">
+                                <div class="author-info">
+                                    <span class="author-name">Oswaldo</span>
+                                    <span class="author-role"></span>
+                                </div>
+                            </div>
+                            <span class="project-badge-bottom badge-featured">Business Intelligence</span>
+                        </div>
+                    </a>
+                </article>
+
+                <!-- Proyecto 2 - Card mediana -->
+                <article class="project-card" data-animate>
+                    <a href="https://oswaldo-gonzalez.quarto.pub/r-procesamiento-de-datos/" target="_blank" class="project-link" rel="noopener">
+                        <div class="project-image">
+                            <img src="img/rstudio.png" alt="Proyecto de procesamiento de datos en R">
+                        </div>
+                        <div class="project-content">
+                            <h3>R para transformación avanzada de datos</h3>
+                            <p>Aprende tidyverse para procesamiento de datos avanzado.</p>
+                            <span class="project-badge-inline badge-blog">Guia</span>
+                        </div>
+                    </a>
+                </article>
+
+                <!-- Proyecto 3 - Card mediana -->
+<article class="project-card project-in-progress" data-animate>
+    <div class="project-image">
+        <img src="img/power bi.png" alt="Dashboard interactivo Power BI en desarrollo">
+        <span class="project-badge badge-progress">EN PROCESO</span>
+    </div>
+    <div class="project-content">
+        <h3>Dashboard de seguimiento de Ordenes de Compra</h3>
+        <p>Proyecto actualmente en desarrollo. Próximamente resultados.</p>
+    </div>
+</article>
+
+
+                <!-- Proyecto 4 - Card mediana -->
+                <article class="project-card" data-animate>
+                    <a href="https://oswaldo-gonzalez.quarto.pub/modelado-de-riesgo-crediticio/" target="_blank" class="project-link" rel="noopener">
+                        <div class="project-image">
+                            <img src="img/Proyecto4.png" alt="Modelo de riesgo crediticio">
+                        </div>
+                        <div class="project-content">
+                            <h3>Factores de Riesgo en el otorgamiento crediticio</h3>
+                            <span class="project-badge-inline badge-development">Modelado</span>
+                        </div>
+                    </a>
+                </article>
+
+                <!-- Proyecto 5 - Card mediana -->
+                <article class="project-card" data-animate>
+                    <a href="https://oswaldo-gonzalez.quarto.pub/calidad_del_aire_2018/" target="_blank" class="project-link" rel="noopener">
+                        <div class="project-image">
+                            <img src="img/Calidad.png" alt="Proyecto de calidad del aire en Veracruz">
+                        </div>
+                        <div class="project-content">
+                            <h3>Calidad del aire en Veracruz</h3>
+                            <span class="project-badge-inline badge-development">Proyecto Técnico (Más código)</span>
+                        </div>
+                    </a>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN CONTACTO -->
+    <section id="contacto" class="contact">
+        <div class="container">
+            <h2 class="section-title">Conectemos</h2>
+            <p class="contact-subtitle">
+                ¿Tienes un proyecto en mente o simplemente quieres conversar sobre datos?<br>
+            </p>
+            
+            <div class="social-grid">
+                
+
+                <!-- GitHub -->
+                <a href="https://github.com/Oswaldo-R04" target="_blank" class="social-card" data-animate rel="noopener">
+                    <div class="social-icon github" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" fill="currentColor" width="32" height="32">
+                            <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                        </svg>
+                    </div>
+                    <div class="social-info">
+                        <h3>GitHub</h3>
+                        <p>Revisa mi código</p>
+                    </div>
+                </a>
+
+                <!-- Email -->
+                <a href="mailto:oswaldo.gonzalezmtz@gmail.com" class="social-card" data-animate>
+                    <div class="social-icon email" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" fill="currentColor" width="32" height="32">
+                            <path d="M12 12.713l-11.985-9.713h23.97l-11.985 9.713zm0 2.574l-12-9.725v15.438h24v-15.438l-12 9.725z"/>
+                        </svg>
+                    </div>
+                    <div class="social-info">
+                        <h3>Email</h3>
+                        <p>Escríbeme directamente</p>
+                    </div>
+                </a>
+
+            </div>
+
+        </div>
+    </section>
+</main>
+
+<!-- FOOTER -->
+<footer class="footer">
+    <p>&copy; </p>
+</footer>
+
+<!-- Tu JavaScript -->
+<script src="js/main.js"></script>
+</body>
+</html>
